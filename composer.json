@@ -1,0 +1,20 @@
+{
+	"name" : "robert/abnf",
+	"license" : "MIT",
+	"require" : {
+		"php" : ">=7.2"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^7"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"RHo\\ABNF\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"RHo\\ABNF_Test\\" : "tests/"
+		}
+	}
+}
